@@ -3,6 +3,8 @@ import { Inter } from '@next/font/google'
 import Banner from '@/components/Banner'
 import Nav from '@/components/Nav'
 import Description from '@/components/Description'
+import FullBody from '@/components/FullBody'
+import Exercise from '@/components/Exercise'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,9 +19,11 @@ export default function Home() {
       </Head>
       <div className='max-w-[1400px] mx-auto'>
         <Nav />
-        <Banner /> 
+        <Banner />
         <Description />
+        <Exercise />
+        <FullBody />
       </div>
     </>
   )
-}
+} 

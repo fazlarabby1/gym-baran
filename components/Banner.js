@@ -23,11 +23,11 @@ const Banner = () => {
                         <button className='text-indigo-900 bg-white rounded flex items-center justify-around w-32 md:w-40 py-2 ml-9'><FaPlayCircle className='border rounded-full text-xl text-indigo-900' />Learn More</button>
                     </div>
                     <p className='mt-12 bg-transparent'>Brands:</p>
-                    <div className='flex flex-wrap items-center bg-transparent mt-7'>
-                    <Image className='w-20 mt-3 md:mt-0 ml-12 bg-transparent' src={nick} alt='' />
-                    <Image className='w-20 ml-12 mt-3 md:mt-0 bg-transparent' src={adidas} alt='' />
-                    <Image className='w-20 ml-12 mt-3 md:mt-0 bg-transparent' src={puma} alt='' />
-                    <Image className='w-20 ml-12 mt-3 md:mt-0 bg-transparent' src={reebok} alt='' />
+                    <div className='flex items-center bg-transparent mt-7'>
+                    <Image className='w-16 md:w-20 mt-3 md:mt-0 bg-transparent' src={nick} alt='' />
+                    <Image className='w-16 md:w-20 ml-3 md:ml-12 mt-3 md:mt-0 bg-transparent' src={adidas} alt='' />
+                    <Image className='w-16 md:w-20 ml-3 md:ml-12 mt-3 md:mt-0 bg-transparent' src={puma} alt='' />
+                    <Image className='w-16 md:w-20 ml-3 md:ml-12 mt-3 md:mt-0 bg-transparent' src={reebok} alt='' />
                     </div>
                 </div>
                 <div className='mt-16 bg-transparent w-[209.86px] h-[340px] md:h-[580px] md:w-[385px]'>

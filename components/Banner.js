@@ -9,7 +9,7 @@ import reebok from '../public/assets/brands/reebok.png';
 
 const Banner = () => {
     return (
-        <div className='bg-gradient-to-b from-fuchsia-100 to-fuchsia-0 px-10 text-black'>
+        <div className='bg-gradient-to-b from-fuchsia-100 to-fuchsia-0 px-10 text-black pt-14 md:pt-0'>
 
             <div className='bg-transparent flex flex-col md:flex-row justify-between items-center'>
                 <div className='bg-transparent'>

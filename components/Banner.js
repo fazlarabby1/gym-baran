@@ -9,7 +9,7 @@ import reebok from '../public/assets/brands/reebok.png';
 
 const Banner = () => {
     return (
-        <div className='bg-gradient-to-b from-fuchsia-100 to-fuchsia-0 py-6 px-10 text-black mt-5'>
+        <div className='bg-gradient-to-b from-fuchsia-100 to-fuchsia-0 py-6 px-10 text-black'>
 
             <div className='bg-transparent flex flex-col md:flex-row justify-between items-center'>
                 <div className='bg-transparent'>
@@ -18,7 +18,7 @@ const Banner = () => {
                         Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.
                     </p>
                     <div className='bg-transparent flex mt-6'>
-                        <button className='bg-indigo-900 text-white rounded flex items-center justify-around w-32 md:w-40 py-2'>Get Started<FaGreaterThan className='border rounded-full text-xl text-indigo-900' /></button>
+                        <button className='bg-indigo-900 text-white rounded flex items-center justify-around w-32 md:w-40 py-2'>Get Started<FaGreaterThan className='border rounded-full text-xl bg-white text-indigo-900' /></button>
 
                         <button className='text-indigo-900 bg-white rounded flex items-center justify-around w-32 md:w-40 py-2 ml-9'><FaPlayCircle className='border rounded-full text-xl text-indigo-900' />Learn More</button>
                     </div>

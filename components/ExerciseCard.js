@@ -6,7 +6,7 @@ const ExerciseCard = ({ exercise }) => {
     const { title, icon } = exercise;
     return (
         <div className='flex items-center text-white mt-10 md:mt-0'>
-            <div className='mr-4 p-2 bg-violet-400 rounded-lg'>
+            <div className='mr-2 p-2 bg-violet-400 rounded-lg'>
                 <Image className='w-12' src={icon} alt='' />
             </div>
             <div>
